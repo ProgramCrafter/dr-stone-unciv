@@ -1,0 +1,168 @@
+[
+    // Spectator
+    {
+        "name": "Spectator",
+        "outerColor": [255, 255, 255]
+        "innerColor": [139, 139, 139]
+    },
+
+    // Nations
+    {
+        "name": "Rationality Dominion",
+        "leaderName": "Bayesian Agent",
+        "adjective": ["Rational"],
+        "preferredVictoryType": "Domination",
+        
+        "startIntroPart1": "For millenia, people have been sharing knowledge about the world surrounding them. Over time, they started to lie, but that did not stop progress as some reasoners found way to get the truth. Unfortunately, only centuries later they've developed taste for knowing what actions will be helpful to reach certain goals.",
+        "startIntroPart2": "Oh Bayesian, now the Rational people want to know what will lead the nation to shine through the ages of history. It's time to enact your plan.",
+        
+        "declaringWar": "Dominion considers your values incompatible with ours.",
+        "attacked": "Anticipated. We will stand for our values.",
+        "defeated": "The world best in our opinion... may yet arise later.",
+        "introduction": "We are faithful to our goals and ourselves.",
+        "neutralHello": "Hello, it's interesting to learn more about you.",
+        "hateHello": "You may speak your trickery.",
+        "tradeRequest": "Let's go for positive-sum cooperation.",
+        
+        "outerColor": [201, 154, 38],
+        "innerColor": [149, 54, 163],
+        "uniqueName": "Intent Concentration",
+        "uniques": [
+            "No damage penalty for wounded units <for [All] units>",
+            "All healing effects doubled <for [Land] units> <in [Foreign Land] tiles>",
+            "[Archery] units gain the [Communicated Fire] promotion <upon gaining a [Archery] unit>"
+        ],
+        "cities": ["Defăult", "Odds Overlook", "Bayesian Bay", "Premise Palace",
+            "Evidence Estates", "Statistical Settlement", "Probabilistic Pueblo",
+            "Data Den", "Logic Academy", "Decisionpolis", "Empirico"]
+    },
+    
+    {
+        "name": "Kingdom of Science",
+        "leaderName": "Senku Ichigami",
+        "adjective": ["Scientific"],
+        "startBias": ["Hills"],
+        "preferredVictoryType": "Scientific",
+        
+        "startIntroPart1": "One, two, three... Hundred sixteen billion... four hundred twenty-seven million... sixty-five thousand... five hundred thirty. Even stone is not that determined.",
+        "startIntroPart2": "It's time to wake up, Chief Senku. Your knowledge how to build technological advances will attract people, once you use it wisely. Let's go restoring the civilization!",
+        
+        "declaringWar": "Your resources will help us.",
+        "attacked": "We guessed your plans.",
+        "defeated": "You've counteracted all my contingency protocols...",
+        "introduction": "We will restore the technological civilization. Will you help?",
+        "neutralHello": "Hello.",
+        "hateHello": "Hello. (whispering: 'we cannot trust them, right?')",
+        "tradeRequest": "Senku Technologies has many items you might be interested in.",
+        
+        "outerColor": [0, 149, 163],
+        "innerColor": [191, 255, 242],
+        "uniqueName": "Practical Civilization",
+        "uniques": [
+            // This unique is the only one applicable nation-wide at dev time
+            // Eventually it will be deprecated and replaced with
+            //     "Double movement in [Forest] <for [All] units>"
+            "Units ignore terrain costs when moving into any tile with Hills",
+            "[+40]% Golden Age length",
+            "[+8 Science] <during a Golden Age>"
+        ],
+        "cities": ["Ishigami", "Minelaki", "Ton Mine", "Crystallab", "Oasle",
+            "Discovertri", "Calculustle", "Techen", "Tether", "Ship-uilder",
+            "Alchemy Plaza"]
+        // , "spyNames": ["Yusurikha", "Taiga", "Suika", "Chrome", "Bohr"]
+    },
+    
+    {
+        "name": "Empire of Might",
+        "leaderName": "Tsukasa Shishio",
+        "adjective": ["Powerful"],
+        "preferredVictoryType": "Domination",
+        
+        "startIntroPart1": "Petrification... It was a strange phenomenon, but it allows us to create new world from scratch. Some might only dream of another society, but you were awakened by Senku on almost empty Earth.",
+        "startIntroPart2": "Welcome to the Empire of Might, Tsukasa Shishio! Your iron fist and unwavering vision have brought us this far. Now it's time for you and your loyal warriors to take our place in history!",
+        
+        "declaringWar": "My troops have crossed your borders. Oh, I've misspoken: that is my territory.",
+        "attacked": "We will accomplish your goal of being utterly destroyed.",
+        "defeated": "Your vision of the world is not that bad. Good luck to you.",
+        "introduction": "Report the situation around.",
+        "neutralHello": "Greetings, neighbor!",
+        "hateHello": "Don't make sudden moves.",
+        "tradeRequest": "We expect you to accept this trade proposal.",
+        
+        "outerColor": [83, 108, 93],
+        "innerColor": [108, 255, 160],
+        "uniqueName": "Power Selection",
+        "uniques": [
+            "[+10]% Strength",
+            "[+2 Production] [in all cities]",
+            "[-10]% Unhappiness from [Population] [in all cities]",
+            "Comment [(Strength selection makes it harder to find new people for units)]"
+            "[-30]% Production when constructing [All] units [in all cities]"
+        ],
+        "cities": ["Shishio Village", "Conquest Castle", "Battlefield Bazaar",
+            "Siege Summit", "Paper Fortress", "Legion Landing", "Dragon's Den"]
+    },
+    
+    // For tests
+    {
+        "name": "Egypt",
+        "leaderName": "Ramesses II",
+        "adjective": ["Egyptian"],
+        "startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+        "preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
+        "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+        "attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+        "defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+        "introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
+        "neutralHello": "Good day.",
+        "hateHello": "Oh, it's you.",
+        "tradeRequest": "Generous Egypt makes you this offer.",
+
+        "outerColor": [255, 252, 3],
+        "innerColor": [83, 0, 208],
+        "uniqueName": "Monument Builders",
+        "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
+        "cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+               "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+               "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+               "Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
+               "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"]
+    },
+	{
+		"name": "Florence",
+		"adjective": ["Florentine"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the flower of Florence falls to barbaric hands...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Florence"]
+	},
+	{
+		"name": "Hanoi",
+		"adjective": ["Hanoi"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,51,255],
+		"cities": ["Hanoi"]
+	},
+
+    // Barbarian
+    {
+        "name": "Barbarians",
+        "style": "Barbarians",
+        "outerColor": [0, 0, 0],
+        "innerColor": [185, 12, 12],
+        "uniques": ["[-50]% Strength <vs cities> <before discovering [Steam Power]>"]
+    }
+]
